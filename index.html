@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Era-Fresh</title>
+
+    <!-- swiper js link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="" class="logo">
+        <i class="fas fa-shopping-basket"> Era Fresh</i></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/semangka.jpeg" alt="semangka" />
+          <h3>semangka</h3>
+          <div class="price">$40</div>
+          <div class="quantity">qty:20</div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/stroberi.jpg" alt="stroberi" />
+          <h3>strawberry</h3>
+          <div class="price">$25</div>
+          <div class="quantity">qty:20</div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/buahnaga.jpg" alt="buahnaga" />
+          <h3>buahnaga</h3>
+          <div class="price">$43</div>
+          <div class="quantity">qty:20</div>
+        </div>
+        <div class="total">total:$100</div>
+        <a href="#" class="btn"> checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Login Sekarang</h3>
+        <input type="email" placeholder="masukan email anda" class="box" />
+        <input
+          type="password"
+          placeholder="masukan password anda"
+          class="box"
+        />
+        <p>lupa password <a href="#">click here</a></p>
+        <p>tidak punya akun <a href="#">Buat Sekarang</a></p>
+        <input type="submit" value="login sekarang" class="btn" />
+      </form>
+    </header>
+    <!-- header section end -->
+
+    <!-- home sectition dimulai -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh and <span>organic</span> product fo your</h3>
+        <p>
+          Kami Menyediakan Berbagai macam buah-buahan dan sayur-sayuran dari manca negara dan lokal
+        </p>
+        <a href="#" class="btn"> shop now </a>
+      </div>
+    </section>
+
+    <!-- home sectition done -->
+
+    <!-- features section start -->
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/fitur 1.png" alt="" />
+          <h3>fresh and organic</h3>
+          <p>Kami menyediakan buah dan sayur
+            yang segar
+          </p>
+          <a href="#" class="btn"> Read More </a>
+        </div>
+
+        <div class="box">
+          <img src="image/fitur 2.png" alt="" />
+          <h3>Gratis Pengantaran</h3>
+          <p>Gratis ongkir minimum belanja Rp.100.000</p>
+          <a href="#" class="btn"> Read More </a>
+        </div>
+
+        <div class="box">
+          <img src="image/fitur 3.png" alt="" />
+          <h3>Pembayaran Mudah</h3>
+          <p>Kami menerima semua pembayaran</p>
+          <a href="#" class="btn"> Read More </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section end -->
+
+    <!-- product section start -->
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/produk1.avif" alt="" />
+            <h3>Jeruk Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/produk2.jpg" alt="" />
+            <h3>Bawang Merah Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/produk3.webp" alt="" />
+            <h3>KangKung Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/produk4.avif" alt="" />
+            <h3>Timun Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/produk5.jpg" alt="" />
+            <h3>Kol Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/produk6.jpg" alt="" />
+            <h3>Mangga Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/produk 7.jpg" alt="" />
+            <h3>Nanas Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/produk8.jpg" alt="" />
+            <h3>Kentang Segar</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn"> add to cart </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section end -->
+
+    <!-- categories section start -->
+
+    <section class="categories" id="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image/stoberi.jpg" alt="" />
+          <h3>Vegetables</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/salak.jpg" alt="" />
+          <h3>fresh fruits</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/jeruk.jfif" alt="" />
+          <h3>Buah segar</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/mangga.jfif" alt="" />
+          <h3>baru di petik</h3>
+          <p>upto 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section end -->
+
+    <!-- review section start -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/propil1.jpg" alt="" />
+            <p>
+              Toko nya sangat bagus, dan bersih.
+            </p>
+            <h3>Rasyid</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star_half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/propil2.jpg" alt="" />
+            <p>
+              Pelayanan nya sangat Ramah
+            </p>
+            <h3>Nabil</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star_half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/propil3.jpg" alt="" />
+            <p>
+              Barang-barang sangat fresh dan lengkap
+            </p>
+            <h3>Ferdinan</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star_half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/propil4.jpg" alt="" />
+            <p>
+              banyak buah-buahan impor
+            </p>
+            <h3>Joan</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star_half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section end -->
+
+    <!-- block section start -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+      <div class="box-container">
+
+        <div class="box">
+          <img src="image/profile1.avif" alt="">
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Rasyid </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 10st october, 2023</a>
+            </div>
+            <h3>fresh and organic vegitables and fruits</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/propil2.jpg" alt="">
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Nabil </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 10st october, 2023</a>
+            </div>
+            <h3>fresh and organic vegitables and fruits</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/propil3.jpg " alt="">
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Joan </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 10st october, 2023</a>
+            </div>
+            <h3>fresh and organic vegitables and fruits</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- block section end -->
+
+    <!--Footer Section Starts-->
+
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+          <h3>Era-Fresh <i class="fas fa-shopping-basket"></i></h3>
+          <p>Pusat Perbelanjaan buah dan sayur segar di Samarinda, Kami menyediakan berbagai macam buah dan sayur import yang sangat segar dan tanpa pengawet.</p>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-twitter"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> 0821-1011-5000 </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> admin@erafresh.co.id </a>
+          <a href="https://www.google.com/maps/place/President+Motor/@-0.4799171,117.1442016,17z/data=!3m1!4b1!4m6!3m5!1s0x2df67f3928a96095:0x8b1db26810180e38!8m2!3d-0.4799171!4d117.1467765!16s%2Fg%2F1pzrwlp69?entry=ttu" class="links"> <i class="fas fa-map-marker-alt"></i>  President Motor, Jl. Dr. Sutomo, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75243 </a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+      </div>
+
+      <!-- <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email"> 
+          <input type="submit" value="subscribe" class="btn">
+          <img src="https://topmacro.org/assets/credits.png" class="payment-img" alt="">
+      </div> -->
+
+  </div>
+
+  <div class="credit"> created by <span> Job.team4 </span> | all rights reserved </div>
+
+</section>
+
+<!--Footer Section Ends-->
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
